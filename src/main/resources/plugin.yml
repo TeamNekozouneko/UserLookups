@@ -1,0 +1,13 @@
+name: UserLookups
+version: '${project.version}'
+main: ga.nekozouneko.lookup.userlookups.UserLookups
+api-version: 1.17
+authors: [ NekozounekoTEAM ]
+description: Lookup a User Data
+commands:
+  lookup:
+    aliases: [getdata]
+    description: Command description
+    permission: UserLookups.commands
+    permission-message: Permission denied
+    usage: /<command> <help|user|server> [<args>]
